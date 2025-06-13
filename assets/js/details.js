@@ -11,7 +11,7 @@ if (name && number) {
             const detalheDiv = document.getElementById('detalhePokemon')
             detalheDiv.innerHTML = `
                 <div class="pokemon ${pokemon.type}">
-                    <a href="index.html" class="btn-voltar">⬅</a>
+                    <a href="../index.html" class="btn-voltar">⬅</a>
                     <span class="number">#${pokemon.number}</span>
                     <span class="name">${pokemon.name}</span>
 

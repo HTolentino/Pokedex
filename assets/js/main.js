@@ -35,11 +35,11 @@ function loadPokemonItens (offset, limit) {
             const name = clickedItem.querySelector('.name').textContent
             const number = clickedItem.querySelector('.number').textContent.replace('#', '')
 
-            // Aqui você pode chamar a função que mostra os detalhes
+            // Chama a função que mostra os detalhes
             console.log(`Clicou no Pokémon: ${name}, número: ${number}`)
 
             // Exemplo:
-            window.location.href = `details.html?name=${name}&number=${number}`
+            window.location.href = `assets/details.html?name=${name}&number=${number}`
         }
     })
     //estou futricando até aqui

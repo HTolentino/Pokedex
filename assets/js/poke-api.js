@@ -13,7 +13,6 @@ function convertPokeApiDetailToPokemon (pokeDetail){
 
     pokemon.photo = pokeDetail.sprites.other.dream_world.front_default
 
-    //mexendo
     pokemon.height = pokeDetail.height;
     pokemon.weight = pokeDetail.weight;
     pokemon.abilities = pokeDetail.abilities.map(ab => ab.ability.name);
@@ -21,7 +20,6 @@ function convertPokeApiDetailToPokemon (pokeDetail){
         name: stat.stat.name,
         base: stat.base_stat
     }));
-    //mexendo
 
     return pokemon
 }
