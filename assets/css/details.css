@@ -1,0 +1,83 @@
+.detalhes{
+    padding: 0;
+    margin: 0;
+}
+
+.btn-voltar {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.pokemon .number {
+    color: #fff;
+    opacity: 0;
+}
+
+.pokemon .name {
+    font-weight: bold;
+}
+
+.pokemon .detail .caracteristicas{
+    font-size: .825rem;
+}
+
+.pokemon h3{
+    text-align: center;
+}
+
+.stats-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+    text-align: left;
+    font-size: .825rem;
+}
+
+.stat {
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.stat-name {
+    text-transform: capitalize;
+    display: inline-block;
+    width: 100px;
+}
+
+.stat-bar {
+    background-color: #eee;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+    width: 200px;
+    height: 5px;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+.stat-fill {
+    height: 100%;
+    background-color: #4caf50;
+}
+
+.stat-value {
+    display: inline-block;
+    width: 30px;
+    text-align: right;
+}
+
+@media screen and (min-width: 380px){
+    .stat-bar {
+        width: 400px;
+    }    
+}
+
+@media screen and (min-width: 576px){
+    .stat-bar {
+        width: 800px;
+    }    
+}
